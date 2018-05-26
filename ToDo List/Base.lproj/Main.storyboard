@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="368.80000000000001" y="69.715142428785612"/>
         </scene>
-        <!--View Controller-->
+        <!--Add To Do View Controller-->
         <scene sceneID="Glz-PE-5Cx">
             <objects>
-                <viewController id="gwV-YB-2Rd" sceneMemberID="viewController">
+                <viewController id="gwV-YB-2Rd" customClass="AddToDoViewController" customModule="ToDo_List" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j9h-0S-hrp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,6 +77,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nU-h7-VIn">
                                 <rect key="frame" x="172" y="318" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="gwV-YB-2Rd" eventType="touchUpInside" id="wsG-Ni-phM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -96,6 +99,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="V2o-zC-QoU"/>
                     </view>
+                    <connections>
+                        <outlet property="importantSwitch" destination="t6v-NM-T03" id="I3M-h6-v5Z"/>
+                        <outlet property="titleTextField" destination="KUJ-hE-TG4" id="GAy-jG-IzE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGj-mE-SpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

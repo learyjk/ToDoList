@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4762CE720BA01B500232466 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4762CE620BA01B500232466 /* ToDoTableViewController.swift */; };
+		B4762CE920BA036500232466 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4762CE820BA036500232466 /* ToDo.swift */; };
 		B4B8D19C20B9F9CF006C2F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8D19B20B9F9CF006C2F3D /* AppDelegate.swift */; };
-		B4B8D19E20B9F9CF006C2F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8D19D20B9F9CF006C2F3D /* ViewController.swift */; };
 		B4B8D1A120B9F9CF006C2F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B8D19F20B9F9CF006C2F3D /* Main.storyboard */; };
 		B4B8D1A420B9F9CF006C2F3D /* ToDo_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4B8D1A220B9F9CF006C2F3D /* ToDo_List.xcdatamodeld */; };
 		B4B8D1A620B9F9CF006C2F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B8D1A520B9F9CF006C2F3D /* Assets.xcassets */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4762CE620BA01B500232466 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		B4762CE820BA036500232466 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		B4B8D19820B9F9CF006C2F3D /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B8D19B20B9F9CF006C2F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4B8D19D20B9F9CF006C2F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B4B8D1A020B9F9CF006C2F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4B8D1A320B9F9CF006C2F3D /* ToDo_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_List.xcdatamodel; sourceTree = "<group>"; };
 		B4B8D1A520B9F9CF006C2F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				B4B8D19B20B9F9CF006C2F3D /* AppDelegate.swift */,
-				B4B8D19D20B9F9CF006C2F3D /* ViewController.swift */,
+				B4762CE620BA01B500232466 /* ToDoTableViewController.swift */,
+				B4762CE820BA036500232466 /* ToDo.swift */,
 				B4B8D19F20B9F9CF006C2F3D /* Main.storyboard */,
 				B4B8D1A520B9F9CF006C2F3D /* Assets.xcassets */,
 				B4B8D1A720B9F9CF006C2F3D /* LaunchScreen.storyboard */,
@@ -139,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4B8D19E20B9F9CF006C2F3D /* ViewController.swift in Sources */,
 				B4B8D19C20B9F9CF006C2F3D /* AppDelegate.swift in Sources */,
+				B4762CE720BA01B500232466 /* ToDoTableViewController.swift in Sources */,
 				B4B8D1A420B9F9CF006C2F3D /* ToDo_List.xcdatamodeld in Sources */,
+				B4762CE920BA036500232466 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4P6986XB2;
 				INFOPLIST_FILE = "ToDo List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Keegan.Leary.ToDo-List";
@@ -293,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4P6986XB2;
 				INFOPLIST_FILE = "ToDo List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Keegan.Leary.ToDo-List";
